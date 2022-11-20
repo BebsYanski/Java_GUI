@@ -7,6 +7,7 @@ public class Main {
 //        new jradio();
        // new Jcombo();
 //        Jslide slide = new Jslide();
-    ProgressBarDemo demo = new ProgressBarDemo();
+//    ProgressBarDemo demo = new ProgressBarDemo();
+    new jmenu();
     }
 }
