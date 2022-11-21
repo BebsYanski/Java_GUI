@@ -16,10 +16,22 @@ public class jmenu extends JFrame implements ActionListener {
     JMenuItem exitItem;
 
     JLabel label;
+    
+    ImageIcon exitIcon;
+    ImageIcon loadIcon;
+    ImageIcon saveIcon;
+    ImageIcon newIcon;
+    ImageIcon openIcon;
     jmenu(){
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setSize(500, 500);
         this.setLayout(new FlowLayout());
+
+        loadIcon = new ImageIcon("icons/folder.png");
+        newIcon = new ImageIcon("icons/edit.png");
+        openIcon = new ImageIcon("icons/new.png");
+        saveIcon = new ImageIcon("icons/save.png");
+        exitIcon = new ImageIcon("icons/exit.png");
 
         label = new JLabel();
         this.add(label);
@@ -41,6 +53,12 @@ public class jmenu extends JFrame implements ActionListener {
         openItem.addActionListener(this);
         saveItem.addActionListener(this);
         exitItem.addActionListener(this);
+
+        loadItem.setIcon(loadIcon);
+        newItem.setIcon(newIcon);
+        openItem.setIcon(openIcon);
+        saveItem.setIcon(saveIcon);
+        exitItem.setIcon(exitIcon);
 
        fileMenu.setMnemonic(KeyEvent.VK_F);//Alt + F for file
         editMenu.setMnemonic(KeyEvent.VK_E);//Alt + E for file

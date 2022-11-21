@@ -8,6 +8,8 @@ public class Main {
        // new Jcombo();
 //        Jslide slide = new Jslide();
 //    ProgressBarDemo demo = new ProgressBarDemo();
-    new jmenu();
+//    new jmenu();
+   new fileChooser();
     }
+
 }
