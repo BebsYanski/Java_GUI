@@ -9,7 +9,8 @@ public class Main {
 //        Jslide slide = new Jslide();
 //    ProgressBarDemo demo = new ProgressBarDemo();
 //    new jmenu();
-   new fileChooser();
+//   new fileChooser();
+//   new jcolor();
     }
 
 }
